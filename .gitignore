@@ -1,0 +1,31 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# PHP / IDE
+.vscode/
+.idea/
+*.log
+*.cache
+
+# Dependencies and runtime files
+vendor/
+node_modules/
+storage/logs/
+storage/Logs/
+
+# Database exports and dumps that may contain sensitive data
+*dump*.sql
+backup*.sql
+ibtechnology_complet.sql
+ibtechnology.sql
+
+# User uploads
+public/uploads/
+uploads/
+
+# Local source and temporary files
+/a utlser/
+thumbs.db
+.DS_Store

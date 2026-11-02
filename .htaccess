@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Empêcher l'accès direct aux dossiers sensibles
+RewriteRule ^(app|storage|config)/ - [F,L]

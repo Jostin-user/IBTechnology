@@ -1,0 +1,155 @@
+/* Client Ventes Pages Styles (dark, modern) */
+
+.container.my-5 {
+    background: #0f1720;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table-responsive .table {
+    background: #020617;
+    color: #e5e7eb;
+}
+
+.table-responsive .table th {
+    background: #071025;
+    color: #9fb4ff;
+    border-bottom: 1px solid #1e293b;
+}
+
+.table-responsive .table td {
+    border-bottom: 1px solid #1e293b;
+    vertical-align: middle;
+}
+
+.table-responsive .table tbody tr:hover {
+    background: rgba(14, 165, 233, 0.05);
+}
+
+.badge-primary {
+    background: #0ea5e9;
+    color: #08121a;
+    font-weight: 600;
+}
+
+.badge-success {
+    background: #10b981;
+    color: #08121a;
+    font-weight: 600;
+}
+
+.badge-danger {
+    background: #ef4444;
+    color: #fff;
+    font-weight: 600;
+}
+
+.badge-warning {
+    background: #f59e0b;
+    color: #08121a;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    background: #334155;
+    color: #e5e7eb;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background: #475569;
+    color: #fff;
+}
+
+.card {
+    background: #0f172a;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: #e5e7eb;
+}
+
+.card-header.bg-primary {
+    background: linear-gradient(90deg, #0ea5e9, #0ea5a4);
+    color: #08121a;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-body p, .card-body small {
+    margin-bottom: 0;
+}
+
+.form-group label {
+    color: #9fb4ff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-control {
+    background: #020617;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    color: #e5e7eb;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.form-control:focus {
+    background: #071025;
+    border-color: #0ea5e9;
+    color: #e5e7eb;
+}
+
+/* Mobile improvements */
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive table {
+        min-width: 650px;
+    }
+
+    .table-responsive .table td,
+    .table-responsive .table th {
+        white-space: normal;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container.my-5 {
+        padding: 12px;
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .card {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .table-responsive table {
+        min-width: 580px;
+    }
+
+    .table-responsive .table th,
+    .table-responsive .table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .text-right {
+        text-align: left;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
