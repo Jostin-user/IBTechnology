@@ -21,9 +21,8 @@ backup*.sql
 ibtechnology_complet.sql
 ibtechnology.sql
 
-# User uploads
-public/uploads/
-uploads/
+# User uploads are part of the published catalogue
+# Keep local temporary files out of uploads when needed
 
 # Local source and temporary files
 /a utlser/
